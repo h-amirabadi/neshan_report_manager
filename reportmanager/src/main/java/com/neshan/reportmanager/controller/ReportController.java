@@ -52,7 +52,7 @@ public class ReportController {
 
     @PostMapping("/add")
     public ResponseEntity<Report> addReport(@RequestBody Report report) {
-        long duration = ((20 * 60) * 1000);
+        long duration = ((60 * 60) * 1000);
 
         report.setCreatedAt(new Timestamp(new Date().getTime()));
         report.setActiveUntil(new Timestamp(report.getCreatedAt().getTime() + duration));
