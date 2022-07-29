@@ -1,6 +1,7 @@
 <%@ page import="com.neshan.controller.ReportController" %>
 <%@ page import="com.neshan.model.Report" %>
-<%@ page import="com.neshan.DTO.ReportDTO" %><%--
+<%@ page import="com.neshan.DTO.ReportDTO" %>
+<%@ page import="com.neshan.model.Account" %><%--
   Created by IntelliJ IDEA.
   User: hamir
   Date: 7/29/2022
@@ -10,8 +11,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     ReportController reportController = new ReportController();
-//    Report report = reportController.getReportById(Long.parseLong(request.getParameter("rid")));
-    ReportDTO report = reportController.getReportDetailsById(Long.parseLong(request.getParameter("rid")));
+    Account account = (Account) session.getAttribute("acc");
+    ReportDTO report = reportController.getReportDetailsById(Long.parseLong(request.getParameter("rid")), account.getId());
 %>
 <div class="container">
 

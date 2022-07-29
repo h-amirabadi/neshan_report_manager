@@ -24,9 +24,10 @@ public class ReportController {
 
         return report;
     }
-    @GetMapping("/get-details/{id}")
-    public ReportDTO getReportDetailsById(@PathVariable("id") Long id) {
-        ReportDTO reportDTO = restTemplate.getForObject("http://localhost:8081/api/v1/report/get-details/" + id + "",
+
+    @GetMapping("/get-details/{rid}/{aid}")
+    public ReportDTO getReportDetailsById(@PathVariable("rid") Long reportId, @PathVariable("aid") Long accountId) {
+        ReportDTO reportDTO = restTemplate.getForObject("http://localhost:8081/api/v1/report/get-details/" + reportId + "/" + accountId + "",
                 ReportDTO.class);
 
         return reportDTO;

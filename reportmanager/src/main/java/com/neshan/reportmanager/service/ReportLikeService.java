@@ -93,11 +93,11 @@ public class ReportLikeService {
     }
 
 
-    public ReportDTO findReportDetailsById(Long id) {
+    public ReportDTO findReportDetailsById(Long reportId, Long accountId) {
 
         ReportDTO reportDTO = new ReportDTO();
 
-        Optional<Report> optReport = reportRepo.findReportById(id);
+        Optional<Report> optReport = reportRepo.findReportById(reportId);
         if (optReport.isPresent()) {
             Report report = optReport.get();
             reportDTO.setId(report.getId());
@@ -109,7 +109,7 @@ public class ReportLikeService {
             reportDTO.setActiveUntil(report.getActiveUntil());
 
 
-            Optional<ReportLike> optRepLike = reportLikeRepo.findReportLikeByAccountIdAndReportId(report.getAccount().getId(), report.getId());
+            Optional<ReportLike> optRepLike = reportLikeRepo.findReportLikeByAccountIdAndReportId(accountId, report.getId());
             if (optRepLike.isPresent()) {
                 ReportLike reportLike = optRepLike.get();
                 reportDTO.setLikedByCurrentUser(reportLike.isLikeStatus());

@@ -43,9 +43,9 @@ public class ReportController {
         return new ResponseEntity<>(report, HttpStatus.OK);
     }
 
-    @GetMapping("/get-details/{id}")
-    public ResponseEntity<ReportDTO> getReportDetailsById(@PathVariable("id") Long id) {
-        ReportDTO report = reportLikeService.findReportDetailsById(id);
+    @GetMapping("/get-details/{rid}/{aid}")
+    public ResponseEntity<ReportDTO> getReportDetailsById(@PathVariable("rid") Long reportId,@PathVariable("aid") Long accountId) {
+        ReportDTO report = reportLikeService.findReportDetailsById(reportId, accountId);
         return new ResponseEntity<>(report, HttpStatus.OK);
     }
 
