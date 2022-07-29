@@ -1,0 +1,438 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+}
+
+body {
+  padding: 0;
+}
+
+div {
+  padding: 0;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  border: 0;
+  padding: .5vw;
+}
+
+input[type="button"], input[type="submit"] {
+  //border: 2px solid;
+  padding: .5vw;
+  margin: 0;
+}
+
+.default_msg_btn {
+  padding: 1vh !important;
+  height: auto !important;
+  min-width: 4vw;
+}
+
+label {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+h3 {
+  font-size: 3.2vh !important;
+}
+
+h4 {
+  font-size: 2.2vh !important;
+}
+
+.pane_inner_div {
+}
+
+.pane_inner_div h5 {
+  font-size: 1.9vh !important;
+  font-weight: 900 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.pane_inner_div ul {
+  margin-top: 0;
+}
+
+.pane_inner_div ul li {
+  margin-top: 0;
+}
+
+.pane_inner_div hr {
+  border-color: #333;
+}
+
+.btn {
+  font-size: 1.5vh !important;
+}
+
+.btn input {
+  font-size: 1.5vh !important;
+}
+
+.default_btn:hover {
+  cursor: pointer !important;
+}
+
+
+#divWorkspaceContent {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 80%;
+
+  background-color: whitesmoke;
+  //background-color: chocolate;
+}
+
+.mo_section {
+  border-top: 10px solid;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  margin: 3vh;
+  padding: 1vh;
+  //box-shadow: 3px 3px 12px #C0C0C0;
+}
+
+.modal_box {
+  position: fixed;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+
+  display: none;
+
+  border-radius: 1vh;
+}
+
+.inner_modal_box {
+  position: absolute;
+
+  padding: 2.5vh 2.5vw;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  text-align: center;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_modal_box > header {
+  flex: 0 auto;
+  margin-bottom: 2vh;
+}
+
+.inner_modal_box > header > h3 {
+  margin: 0;
+}
+
+.modal_mid_row {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  // TODO Check
+  overflow-x: hidden;
+  box-sizing: border-box;
+
+  margin: 0;
+  flex: 1;
+}
+
+.inner_modal_box > footer {
+  margin: 2vh 0 0;
+  flex: 0;
+  width: 100%;
+}
+
+.modal_box > .modal_close_btn {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.msg_img {
+  width: 8vh;
+  height: 8vh;
+  margin-bottom: 10px;
+}
+
+.modal_inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: start;
+
+  //padding: 35px;
+}
+
+.modal_inner input {
+  background-color: rgba(120, 120, 120, .6);
+  color: white !important;
+}
+
+.modal_inner input:focus {
+  background-color: rgba(120, 120, 120, .8);
+  color: white !important;
+}
+
+.page_shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 99;
+}
+
+#divTools {
+  position: absolute;
+  right: 0;
+  //bottom: 20%;
+  top: 30%;
+  width: 30%;
+  height: 350px;
+  z-index: 3000;
+  margin: 0;
+  padding: 2vh;
+
+  color: black !important;
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, .3);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.tools_header {
+  width: auto;
+  position: relative;
+}
+
+.right_pane > * {
+  color: black !important;
+}
+
+.tools_body {
+  flex-grow: 1;
+  width: 100%;
+
+  margin-top: 1vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.tools_body div {
+  width: 100%;
+}
+
+.tools_body_center {
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.tools_body_center button {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0 !important;
+  //border-radius: 5px;
+  color: white !important;
+  transition: background-color, color .1s ease-in;
+}
+
+.tools_body_center button:hover {
+  background-color: rgba(0, 0, 200, 0.4) !important;
+  color: black !important;
+}
+
+.mo_table {
+  width: 100% !important;
+  background-color: whitesmoke;
+}
+
+.mo_table tbody tr td {
+  color: black !important;
+  font-size: 10pt;
+}
+
+.mo_table tbody tr td a {
+  color: black !important;
+}
+
+.mo_table thead tr th {
+  color: black !important;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+//----------
+//D3 Tree
+
+.node {
+  cursor: pointer;
+}
+
+.overlay {
+  //background-color: #EEE;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: var(--main-bg-color);
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 2vh;
+  //font-family: sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 1.5px;
+}
+
+.templink {
+  fill: none;
+  stroke: red;
+  stroke-width: 3px;
+}
+
+.ghostCircle.show {
+  display: block;
+}
+
+.ghostCircle, .activeDrag .ghostCircle {
+  display: none;
+}
+
+//==========
+
+.input-group-img {
+  width: 18px !important;
+  height: auto;
+}
+
+select[class='form-control'] { // TODO Check Chrome & Firefox & ...
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+.ui-autocomplete {
+  position: absolute;
+  cursor: default;
+  z-index: 3000 !important;
+}
+
+.leaflet-control a:hover {
+  text-decoration: none !important;
+}
+
+.small_search_text {
+  font-size: 10pt !important;
+  border: 1px solid #999999 !important;
+  background-color: #333333;
+  border-radius: 4px;
+  padding: 2px !important;
+  margin: 2px !important;
+  color: whitesmoke !important;
+}
+
+
+#components {
+  min-height: 600px;
+  margin-top: 5px;
+}
+
+#target {
+  min-height: 800px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+#target .component {
+  border: 1px solid #fff;
+}
+
+#temp {
+  width: 500px;
+  background: white;
+  border: 1px dotted #ccc;
+  border-radius: 10px;
+}
+
+.popover-content form {
+  margin: 0 auto;
+  width: 213px;
+}
+
+.popover-content form .btn {
+  margin-right: 10px
+}
+
+#source {
+  min-height: 500px;
+}
+
+
+.input-group-height {
+  height: 25px !important;
+  font-size: 10px !important;
+}
+
+.main-div {
+  font-size: 12px !important;
+}
+
+.map-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

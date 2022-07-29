@@ -1,0 +1,303 @@
+<shapes>
+    <shape name="cashier" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/cashier-machine.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="door1" aspect="fixed">
+        <background>
+            <image src="/media/temp/door1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="chair1" aspect="fixed">
+        <background>
+            <image src="/media/temp/chair1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="event1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/event1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="notification1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/notification1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="loop1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/loop1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="activity1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/activity1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="ai_activity1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/ai_activity1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="fork1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/fork1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="join1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/join1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="decision1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/decision1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="questionnaire1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/questionnaire1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="meeting1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/meeting1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="exception1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/exception1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="cluster1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/cluster1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="store1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/store1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="sub-process-start1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/loop1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="sub-process-finish1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/sub-process-finish1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="finish1" aspect="fixed"  >
+        <background>
+            <image src="/media/image/icon/process/finish1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="api1" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/api1.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+
+    <shape name="event1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/event1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="notification1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/notification1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="loop1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/loop1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="activity1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/activity1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="ai_activity1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/ai_activity1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="fork1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/fork1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="join1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/join1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="decision1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/decision1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="questionnaire1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/questionnaire1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="meeting1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/meeting1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="exception1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/exception1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="cluster1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/cluster1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="store1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/store1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="sub-process-start1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/loop1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="sub-process-finish1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/sub-process-finish1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="finish1-passed" aspect="fixed"  >
+        <background>
+            <image src="/media/image/icon/process/finish1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <shape name="api1-passed" aspect="fixed">
+        <background>
+            <image src="/media/image/icon/process/api1-passed.svg" x="0" y="0" w="100" h="100"/>
+        </background>
+        <foreground>
+        </foreground>
+    </shape>
+    <!--<shape name="or" aspect="variable">-->
+        <!--<background>-->
+            <!--<path>-->
+                <!--<move x="0" y="0"/>-->
+                <!--<quad x1="100" y1="0" x2="100" y2="50"/>-->
+                <!--<quad x1="100" y1="100" x2="0" y2="100"/>-->
+                <!--<close/>-->
+            <!--</path>-->
+        <!--</background>-->
+        <!--<foreground>-->
+            <!--<fillstroke/>-->
+        <!--</foreground>-->
+    <!--</shape>-->
+    <!--<shape name="xor" aspect="fixed">-->
+        <!--<background>-->
+            <!--<path>-->
+                <!--<move x="0" y="0"/>-->
+                <!--<quad x1="100" y1="0" x2="100" y2="50"/>-->
+                <!--<quad x1="100" y1="100" x2="0" y2="100"/>-->
+                <!--<quad x1="50" y1="50" x2="0" y2="0"/>-->
+                <!--<close/>-->
+            <!--</path>-->
+        <!--</background>-->
+        <!--<foreground>-->
+            <!--<fillstroke/>-->
+        <!--</foreground>-->
+    <!--</shape>-->
+    <!--<shape name="and" aspect="fixed" w="50">-->
+        <!--<background>-->
+            <!--<linejoin join="round"/>-->
+            <!--<path>-->
+                <!--<move x="0" y="0"/>-->
+                <!--<line x="50" y="50"/>-->
+                <!--<line x="0" y="100"/>-->
+                <!--<close/>-->
+            <!--</path>-->
+        <!--</background>-->
+        <!--<foreground>-->
+            <!--<fillstroke/>-->
+        <!--</foreground>-->
+    <!--</shape>-->
+</shapes>

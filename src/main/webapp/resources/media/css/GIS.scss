@@ -1,0 +1,49 @@
+#mapMain {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+}
+
+#btnGISLayers {
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  right: 5px;
+  z-index: 20;
+}
+
+#divGISLayers {
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  right: 5px;
+  z-index: 20;
+}
+
+#divMapLoading {
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  //left: 5px;
+  width: 5vh;
+  height: 5vh;
+  z-index: 20;
+}
+
+/*#mapMainDiv {
+  position: fixed;
+  //right: 0;
+  bottom: 0;
+  top: 0;
+  //left: 0;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+}*/
+
+

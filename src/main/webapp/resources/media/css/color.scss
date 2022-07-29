@@ -1,0 +1,152 @@
+:root {
+  --main-page-bg-color: #333333;
+  --main-bg-color: rgb(8, 17, 54);
+  //--main-bg-color: #444;
+  --msg-bg-color: rgba(0, 0, 0, .9);
+  //--msg-bg-color: rgba(0, 22, 104, .9);
+  --main-bg-color-hover: rgba(0, 25, 184, .5);
+  --workspace-bg-color: rgb(8, 17, 54);
+}
+
+body {
+  color: white !important;
+}
+
+#bdyLogin {
+  background-color: var(--main-bg-color);
+}
+
+#bdyIndex {
+  background-color: var(--main-page-bg-color);
+}
+
+/*input {
+  background-color: inherit;
+  color: white !important;
+}*/
+
+a {
+  color: white !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  margin: 0 !important;
+}
+
+*:focus {
+  //outline: none;
+  //caret-color: yellow;
+}
+
+//input[type="radio"]:active { //TODO Check (Not working for tabs)
+//  outline: none !important;
+//}
+
+.mo_form_row {
+  background-color: rgba(0, 25, 184, .5) !important;
+  border-bottom-color: rgba(255, 255, 255, .4) !important;
+}
+
+#divCopyright {
+  opacity: .5;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+  opacity: .4; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: gray;
+  opacity: .4;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: gray;
+  opacity: .4;
+}
+
+.default_btn {
+  background-color: var(--main-bg-color-hover);
+  //border: 1px solid rgba(255, 255, 255, .4) !important;
+  border: 0 !important;
+  border-radius: 4px;
+  color: white !important;
+  padding: 7px 12px !important;
+  transition: background-color .2s ease-in;
+}
+
+.default_btn:hover {
+  background-color: rgba(255, 109, 0, 0.91) !important;
+}
+
+#divMidBand {
+  background-color: var(--main-bg-color);
+  opacity: .7;
+}
+
+.modal_box {
+  background-color: var(--msg-bg-color);
+  //opacity: .9;
+  box-shadow: 0 0 8vh black;
+}
+
+.mo_form_start_divider_row, .mo_form_end_divider_row {
+  border-bottom-color: rgba(255, 255, 255, .4) !important;
+}
+
+.page_shadow {
+  background-color: black;
+  opacity: .3;
+}
+
+.modal_box .modal_close_btn {
+  background-color: #8d0000;
+}
+
+.modal_box .modal_close_btn:hover {
+  background-color: #ff0000;
+}
+
+.qtip-content {
+  background-color: rgba(0, 0, 0, .1);
+  //background-color: var(--main-bg-color-hover);
+  //background-color: rgba(255, 255, 255, .9);
+  //color: black;
+  //background-color: rgba(255, 109, 0, 0.91) !important;
+  color: rgba(255, 255, 255, .8);
+  //border-color: white;
+}
+
+#divMenu {
+  //background-color: rgba(64, 67, 170, .5);
+  //background-color: rgba(255, 255, 255, 1);
+  //background-color: var(--main-bg-color);
+  //background-color: #EEEEEE;
+  //background-color: rgba(8, 17, 54, .85);
+  background-color: rgba(0, 25, 184, .8);
+  //background-color: rgba(255, 255, 255, 1);
+  border-right: 1px solid rgba(0, 0, 0, .8);
+}
+
+.red_bg {
+  background-color: red !important;
+}
+
+.leaflet-control a {
+  color: black !important;
+}
+
+.inner_modal_box > header > h3 {
+  color: #EEEEEE;
+}
+
+.custom-toolstrip-right-group .btn {
+  background-color: rgba(255, 255, 255, .5) !important;
+  border: none !important;
+}
+
+.custom-toolstrip-right-group .btn:hover {
+  background-color: rgba(255, 255, 255, .8) !important;
+  border: none !important;
+}
