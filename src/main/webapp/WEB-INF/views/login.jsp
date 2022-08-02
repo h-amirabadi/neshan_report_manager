@@ -16,13 +16,13 @@
     if(session.getAttribute("acc") != null)
         session.removeAttribute("acc");
 %>
-<div class="" style="background-color: #4e555b;width: 100%;height: 100%" >
+<div class="bg-color" style="width: 100%;height: 100%" >
     <div class="row justify-content-center">
         <div class="col-12 col-md-5 col-xl-4 my-5">
             <!-- Heading -->
-            <h1 class="display-5 text-center mb-3">
+            <h2 class="display-5 text-center mb-3">
                Neshan Report Manager
-            </h1>
+            </h2>
 
             <!-- Subheading -->
             <p class="text-muted text-center mb-5">

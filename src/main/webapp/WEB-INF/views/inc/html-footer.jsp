@@ -13,6 +13,7 @@
 <script type="text/javascript" src="/resources/main.js"></script>
 <script type="text/javascript" src="/resources/login.js"></script>
 <script type="text/javascript" src="/resources/map.js"></script>
+<script type="text/javascript" src="/resources/account.js"></script>
 
 
 <%--<script src="/resources/3rdP/leaflet/v1.8.0/leaflet.js"></script>--%>

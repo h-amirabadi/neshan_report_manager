@@ -144,9 +144,7 @@ function likeReport() {
         contentType: 'application/json',
         data: JSON.stringify(like),
         complete: function (xhr, st) {
-            clog(xhr.responseText);
             if (xhr.status === 200) {
-                clog(xhr.responseText);
                 reloadReportPane(like.report.id);
             } else {
                 alert("Error code:" + xhr.status);
@@ -177,7 +175,6 @@ function dislikeReport() {
         data: JSON.stringify(dislike),
         complete: function (xhr, st) {
             if (xhr.status === 200) {
-                clog(xhr.responseText);
                 reloadReportPane(dislike.report.id);
             } else {
                 alert("Error code:" + xhr.status);

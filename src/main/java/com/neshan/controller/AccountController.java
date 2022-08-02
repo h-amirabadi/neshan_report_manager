@@ -23,7 +23,8 @@ public class AccountController {
         this.accountService = accountService;
     }
 
-    @GetMapping
+
+    @GetMapping("/findAll")
     public ResponseEntity<List<Account>> getAllAccounts() {
         List<Account> accounts = accountService.findAllAccounts();
         return new ResponseEntity<>(accounts, HttpStatus.OK);
